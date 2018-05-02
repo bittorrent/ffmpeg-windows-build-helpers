@@ -37,7 +37,7 @@ set_box_memory_size_bytes() {
 # So it can potentially be used if we needed other version comparisons done later.
 # Also, using the logic built into sort seems more robust than a roll-your-own for comparing versions.
 ver_comp() {
-  [ "${1}" = "${2}" ] || [ "$(printf '%s\n%s' "${1}" "${2}" | sort --version-sort | head -n 1)" == "${1}" ]
+  [ "${1}" = "${2}" ] || [ "$(printf '%s\n%s' "${1}" "${2}" | gsort --version-sort | head -n 1)" == "${1}" ]
 }
 
 check_missing_packages () {
