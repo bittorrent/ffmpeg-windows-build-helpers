@@ -1148,7 +1148,7 @@ build_libmysofa() {
 }
 
 build_libcaca() {
-  do_git_checkout https://github.com/cacalabs/libcaca.git
+  do_git_checkout https://github.com/cacalabs/libcaca.git libcaca_git da28e9684ef445ac8d42745644336b8a75c01855
   cd libcaca_git
     apply_patch file://$patch_dir/libcaca_git_stdio-cruft.diff # Fix WinXP incompatibility.
     cd caca
