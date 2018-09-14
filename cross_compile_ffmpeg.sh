@@ -1698,7 +1698,7 @@ build_ffmpeg() {
       local arch=x86_64
     fi
 
-    init_options="--arch=$arch --target-os=mingw32 --cross-prefix=$cross_prefix --pkg-config=pkg-config --pkg-config-flags=--static --extra-version=static --disable-debug --disable-doc --disable-ffplay --disable-ffserver --disable-w32threads"
+    init_options="--arch=$arch --target-os=mingw32 --cross-prefix=$cross_prefix --pkg-config=pkg-config --pkg-config-flags=--static --extra-version=static --disable-debug --disable-doc --disable-ffplay --disable-w32threads"
 
     if [[ `uname` =~ "5.1" ]]; then
       init_options+=" --disable-schannel"
