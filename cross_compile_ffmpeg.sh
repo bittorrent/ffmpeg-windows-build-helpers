@@ -1690,7 +1690,7 @@ build_ffmpeg() {
   cd $output_dir
     apply_patch file://$patch_dir/frei0r_load-shared-libraries-dynamically.diff
 
-    echo "3.4.2" > VERSION
+    echo "4.0.2" > VERSION
 
     if [ "$bits_target" = "32" ]; then
       local arch=x86
