@@ -1,8 +1,8 @@
 == actual todos ==
 
-zipped lgpl (shared+static) and release plz
+fix mplayer
 
-build "all" doesn't actually built low and high bitdepth x26x
+build "all" doesn't actually built low and high bitdepth x26x??
 
 fix vlc... :| then patch for DVD :)
 poor audio sdl ffplay something?
@@ -12,11 +12,7 @@ try more march, does it really even matter?
 
 nvidia build various deps :)
 
-nvresize distro once
-
 add cygwin "cygwin bash" prompt [and combine...]
-
-add LGPL to the normal distro, why not? (shared and static)
 
 release fei0r filters once
 
